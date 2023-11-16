@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>tags - Command 1</Text>
+    <Description>Some description for tags</Description>
+    <Assembly>tags.dll</Assembly>
+    <FullClassName>tags.Command1</FullClassName>
+    <ClientId>dba413e2-691c-4f32-8c41-1665b3ca83a2</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Text>tags - Command 2</Text>
+    <Description>Some description for tags</Description>
+    <Assembly>tags.dll</Assembly>
+    <FullClassName>tags.Command2</FullClassName>
+    <ClientId>e63e9a2a-0937-4c0d-b2ca-af3a183ad107</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>tags</Name>
+    <Assembly>tags.dll</Assembly>
+    <FullClassName>tags.App</FullClassName>
+    <ClientId>188e4833-551b-4194-a078-cae22c42ca86</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+</RevitAddIns>
